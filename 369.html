@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>云制造系统</title>
+<link rel="shortcut icon" href="img/3.14.5926.jpg">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+ background-image: url('file:///D:/1/2/1.gif');
+
+  border: 2px solid rgba(0, 96, 0, 0.3); /*边框颜色*/
+  border-radius: 55px;
+
+  color: #ffffff; /*字体颜色*/
+  padding: 15px; /*字体大小*/
+  text-align: center; /*字体居中*/
+}
+
+.headed {
+ 
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button1 li{
+  display: inline-block;
+  padding: 15px 25px;
+  
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #33b5e5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-align: center;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 3px 2px rgba(0,0,0,0.24);
+}
+
+.button1 li:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button1li{
+background-color: red;
+}
+
+
+.button1li:hover{
+background-color: red;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+text-align: center;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* 针对桌面： */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 222px;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+</style>
+</head>
+<style>
+body {
+  background: #ffffff url("file:///D:/1/2/12.png") no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+}
+</style>
+			<!-- 主页背景 -->
+
+<div class="header"  id="myDiv" style="text-align:center;margin:100px auto;">
+
+  <h1>控制器事业部<br />库房</h1>
+
+
+
+
+ <script>
+ 	 function start1() {
+ 
+                document.getElementById("myDiv").style.color = "red";
+ 
+                setTimeout("start2()", 300);//延时100毫秒执行下一个
+ 
+            }
+     function start2() {
+ 
+                document.getElementById("myDiv").style.color = "blue";
+ 
+                setTimeout("start3()", 300);
+ 
+            }
+ 
+        
+            function start3() {
+ 
+                document.getElementById("myDiv").style.color = "#BFAD09";
+ 
+                setTimeout("start4()", 300);
+ 
+            }
+ 
+            function start4() {
+ 
+                document.getElementById("myDiv").style.color = "#009688";
+ 
+                setTimeout("start1()", 300);
+ 
+            }
+ 
+            start1();//执行一遍函数start1进入循环
+ 
+
+        </script>
+
+
+
+
+
+</div> 
+  <div class="row">
+  <div class="col-3 col-s-3 button1">
+  <ul>
+ <li onclick="javascript:document.getElementById('01').click();"><a id="01" href="http://192.0.0.100:8080/mc/fp/FpAction_mainFrameFp.ms">云制造</a></li> 
+  <br /><br /><li onclick="javascript:document.getElementById('01').click();"><a id="01" href="file:///C:/Program Files (x86)/SAP/FrontEnd/SAPgui/saplogon.exe"">SAP</a></li> 
+  <br /><br /><li onclick="javascript:document.getElementById('01').click();"><a id="01" href=""C:/Program Files/MountTaiSoftware/CLodop64/CLodopPrint64.exe" setup">摩尔条码</a></li> 
+  <br /><br /><li onclick="javascript:document.getElementById('01').click();"><a id="01" href="https://cli.im/">二维码</a></li> 
+<br /><br /><li onclick="javascript:document.getElementById('01').click();"><a id="01" href=" D:\1\kccx (3).xlsx">库存查询</a></li>
+   </ul>
+ </div> 
+ 
+
+
+
+<div  >
+    <h1>欢迎来到控制器</h1>
+
+
+    <p>认真第一，聪明第二<br />结果提前，自我退后<br />锁定目标，专注重复<br />决心第一，成败第二<br />速度第一，完美第二<br />结果第一，理由第二</p>
+  </div>
+	   <script>
+ 	 function start1() {
+ 
+                document.getElementById("myDiv").style.color = "red";
+ 
+                setTimeout("start2()", 300);//延时100毫秒执行下一个
+ 
+            }
+     function start2() {
+ 
+                document.getElementById("myDiv").style.color = "blue";
+ 
+                setTimeout("start3()", 300);
+ 
+            }
+ 
+        
+            function start3() {
+ 
+                document.getElementById("myDiv").style.color = "#BFAD09";
+ 
+                setTimeout("start4()", 300);
+ 
+            }
+ 
+            function start4() {
+ 
+                document.getElementById("myDiv").style.color = "#009688";
+ 
+                setTimeout("start1()", 300);
+ 
+            }
+ 
+            start1();//执行一遍函数start1进入循环
+ 
+
+        </script>
+    
+
+  </div>
+</div>
+</html>
